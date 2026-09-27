@@ -1,0 +1,20 @@
+{
+  "candidate": "playground_s6e9/artifacts/data_only_3model/submission_rank_blend.csv",
+  "sha256": "ce18e24ea7a740d75c94d41af55d9794e9d8c85f9c9475b346c63ff41a908e9b",
+  "rows": 286571,
+  "prediction_min": 0.0002465939214598,
+  "prediction_max": 0.9999976736422505,
+  "prediction_mean": 0.5000017447683122,
+  "prediction_std": 0.28837028729116093,
+  "checks": {
+    "columns_exact": true,
+    "row_count_exact": true,
+    "ids_unique": true,
+    "ids_match_sample_in_order": true,
+    "predictions_numeric": true,
+    "predictions_finite": true,
+    "predictions_in_unit_interval": true,
+    "predictions_nonconstant": true
+  },
+  "all_checks_pass": true
+}

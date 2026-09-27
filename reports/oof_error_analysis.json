@@ -1,0 +1,227 @@
+{
+  "generated_at_utc": "2026-09-08T23:41:30.921950+00:00",
+  "global_auc": {
+    "strong_seed_blend": 0.9460813738115289,
+    "base_lightgbm": 0.941653127969764,
+    "base_catboost": 0.9413786627312242,
+    "base_xgboost": 0.9416086444935451,
+    "base_rank_blend": 0.9417650342772276
+  },
+  "lowest_strong_auc_slices": [
+    {
+      "dimension": "public_artifact_hypothesis",
+      "value": "environmental_concern_eq_1",
+      "rows": 147476,
+      "positives": 834,
+      "target_rate": 0.00565515744934769,
+      "strong_auc": 0.8357345710562114,
+      "base_rank_blend_auc": 0.8236973397782368,
+      "strong_minus_base_auc": 0.012037231277974625
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(2.0, 3.0]",
+      "rows": 127351,
+      "positives": 14126,
+      "target_rate": 0.11092178310339142,
+      "strong_auc": 0.8646150578615756,
+      "base_rank_blend_auc": 0.8503841273099403,
+      "strong_minus_base_auc": 0.014230930551635268
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(0.999, 2.0]",
+      "rows": 282609,
+      "positives": 3723,
+      "target_rate": 0.013173678120654331,
+      "strong_auc": 0.871849409483114,
+      "base_rank_blend_auc": 0.8632234670563156,
+      "strong_minus_base_auc": 0.008625942426798372
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(3.0, 4.0]",
+      "rows": 130469,
+      "positives": 32467,
+      "target_rate": 0.2488483854402195,
+      "strong_auc": 0.877177960549679,
+      "base_rank_blend_auc": 0.8653791362944868,
+      "strong_minus_base_auc": 0.011798824255192186
+    },
+    {
+      "dimension": "Subsidy_Available",
+      "value": "No",
+      "rows": 248756,
+      "positives": 1432,
+      "target_rate": 0.0057566450658476575,
+      "strong_auc": 0.8834655848944533,
+      "base_rank_blend_auc": 0.8723728764765084,
+      "strong_minus_base_auc": 0.011092708417944852
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(4.0, 5.0]",
+      "rows": 128236,
+      "positives": 66463,
+      "target_rate": 0.5182865965875417,
+      "strong_auc": 0.8835637447702621,
+      "base_rank_blend_auc": 0.8721686085798583,
+      "strong_minus_base_auc": 0.011395136190403776
+    },
+    {
+      "dimension": "Subsidy_Available",
+      "value": "Yes",
+      "rows": 419909,
+      "positives": 115347,
+      "target_rate": 0.2746952315858912,
+      "strong_auc": 0.9112721137367091,
+      "base_rank_blend_auc": 0.9040277627712457,
+      "strong_minus_base_auc": 0.007244350965463386
+    },
+    {
+      "dimension": "public_artifact_hypothesis",
+      "value": "income_eq_30000",
+      "rows": 61605,
+      "positives": 2727,
+      "target_rate": 0.044265887509130755,
+      "strong_auc": 0.9156368293169546,
+      "base_rank_blend_auc": 0.914737687408244,
+      "strong_minus_base_auc": 0.0008991419087105434
+    },
+    {
+      "dimension": "Annual_Income_USD_quintile",
+      "value": "(78915.0, 91619.0]",
+      "rows": 133990,
+      "positives": 22499,
+      "target_rate": 0.1679155160832898,
+      "strong_auc": 0.9339453534371585,
+      "base_rank_blend_auc": 0.9293752516052325,
+      "strong_minus_base_auc": 0.004570101831925966
+    },
+    {
+      "dimension": "Range_Anxiety_Level",
+      "value": "Medium",
+      "rows": 62499,
+      "positives": 2609,
+      "target_rate": 0.04174466791468664,
+      "strong_auc": 0.9373504740804672,
+      "base_rank_blend_auc": 0.9323519015729681,
+      "strong_minus_base_auc": 0.004998572507499133
+    }
+  ],
+  "largest_strong_over_base_gains": [
+    {
+      "dimension": "public_artifact_hypothesis",
+      "value": "income_38000_to_42000",
+      "rows": 1277,
+      "positives": 2,
+      "target_rate": 0.0015661707126076742,
+      "strong_auc": 0.9847058823529412,
+      "base_rank_blend_auc": 0.9356862745098039,
+      "strong_minus_base_auc": 0.0490196078431373
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(2.0, 3.0]",
+      "rows": 127351,
+      "positives": 14126,
+      "target_rate": 0.11092178310339142,
+      "strong_auc": 0.8646150578615756,
+      "base_rank_blend_auc": 0.8503841273099403,
+      "strong_minus_base_auc": 0.014230930551635268
+    },
+    {
+      "dimension": "public_artifact_hypothesis",
+      "value": "environmental_concern_eq_1",
+      "rows": 147476,
+      "positives": 834,
+      "target_rate": 0.00565515744934769,
+      "strong_auc": 0.8357345710562114,
+      "base_rank_blend_auc": 0.8236973397782368,
+      "strong_minus_base_auc": 0.012037231277974625
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(3.0, 4.0]",
+      "rows": 130469,
+      "positives": 32467,
+      "target_rate": 0.2488483854402195,
+      "strong_auc": 0.877177960549679,
+      "base_rank_blend_auc": 0.8653791362944868,
+      "strong_minus_base_auc": 0.011798824255192186
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(4.0, 5.0]",
+      "rows": 128236,
+      "positives": 66463,
+      "target_rate": 0.5182865965875417,
+      "strong_auc": 0.8835637447702621,
+      "base_rank_blend_auc": 0.8721686085798583,
+      "strong_minus_base_auc": 0.011395136190403776
+    },
+    {
+      "dimension": "Subsidy_Available",
+      "value": "No",
+      "rows": 248756,
+      "positives": 1432,
+      "target_rate": 0.0057566450658476575,
+      "strong_auc": 0.8834655848944533,
+      "base_rank_blend_auc": 0.8723728764765084,
+      "strong_minus_base_auc": 0.011092708417944852
+    },
+    {
+      "dimension": "Environmental_Concern_Level_quintile",
+      "value": "(0.999, 2.0]",
+      "rows": 282609,
+      "positives": 3723,
+      "target_rate": 0.013173678120654331,
+      "strong_auc": 0.871849409483114,
+      "base_rank_blend_auc": 0.8632234670563156,
+      "strong_minus_base_auc": 0.008625942426798372
+    },
+    {
+      "dimension": "Subsidy_Available",
+      "value": "Yes",
+      "rows": 419909,
+      "positives": 115347,
+      "target_rate": 0.2746952315858912,
+      "strong_auc": 0.9112721137367091,
+      "base_rank_blend_auc": 0.9040277627712457,
+      "strong_minus_base_auc": 0.007244350965463386
+    },
+    {
+      "dimension": "Annual_Income_USD_quintile",
+      "value": "(62671.0, 78915.0]",
+      "rows": 133678,
+      "positives": 15926,
+      "target_rate": 0.11913703077544548,
+      "strong_auc": 0.9433308387950975,
+      "base_rank_blend_auc": 0.936153045496352,
+      "strong_minus_base_auc": 0.007177793298745461
+    },
+    {
+      "dimension": "Gender",
+      "value": "Other",
+      "rows": 5284,
+      "positives": 918,
+      "target_rate": 0.1737320211960636,
+      "strong_auc": 0.9409379469200008,
+      "base_rank_blend_auc": 0.9348375045035064,
+      "strong_minus_base_auc": 0.006100442416494323
+    }
+  ],
+  "base_model_pairwise_correlations": {
+    "lightgbm_catboost": 0.9973910858418357,
+    "lightgbm_xgboost": 0.997662968752172,
+    "catboost_xgboost": 0.9976831253499678
+  },
+  "files": {
+    "slice_auc": "playground_s6e9/reports/oof_slice_auc.csv",
+    "prediction_correlations": "playground_s6e9/reports/oof_prediction_correlations.csv"
+  },
+  "notes": [
+    "All metrics use out-of-fold predictions; no leaderboard feedback is used in the slices.",
+    "Slices are descriptive and will not be hand-tuned against test records."
+  ]
+}

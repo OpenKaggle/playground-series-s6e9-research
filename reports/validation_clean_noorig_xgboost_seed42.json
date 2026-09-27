@@ -1,0 +1,20 @@
+{
+  "candidate": "playground_s6e9/artifacts/public_lgbm/submission_clean_noorig_xgboost_seed42.csv",
+  "sha256": "8417f2ca52429a4eda84c49af3aa5d45fc36ccb3c1bd835366ca3791bf04d5a8",
+  "rows": 286571,
+  "prediction_min": 2.9662278393516317e-05,
+  "prediction_max": 0.9995598047971724,
+  "prediction_mean": 0.17568890855735741,
+  "prediction_std": 0.27594135147813353,
+  "checks": {
+    "columns_exact": true,
+    "row_count_exact": true,
+    "ids_unique": true,
+    "ids_match_sample_in_order": true,
+    "predictions_numeric": true,
+    "predictions_finite": true,
+    "predictions_in_unit_interval": true,
+    "predictions_nonconstant": true
+  },
+  "all_checks_pass": true
+}

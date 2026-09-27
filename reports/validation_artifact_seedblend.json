@@ -1,0 +1,20 @@
+{
+  "candidate": "playground_s6e9/artifacts/public_lgbm/submission_artifact_seedblend.csv",
+  "sha256": "5d1fd15032b49e934cc6786bd9c1a2590028fd96b6c55d18c42136efb0478e6e",
+  "rows": 286571,
+  "prediction_min": 2.2464500760002733e-06,
+  "prediction_max": 0.999748282533182,
+  "prediction_mean": 0.17505714475833722,
+  "prediction_std": 0.2752401293081991,
+  "checks": {
+    "columns_exact": true,
+    "row_count_exact": true,
+    "ids_unique": true,
+    "ids_match_sample_in_order": true,
+    "predictions_numeric": true,
+    "predictions_finite": true,
+    "predictions_in_unit_interval": true,
+    "predictions_nonconstant": true
+  },
+  "all_checks_pass": true
+}

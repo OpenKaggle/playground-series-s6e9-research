@@ -1,0 +1,203 @@
+{
+  "generated_at_utc": "2026-09-08T21:44:54.342265+00:00",
+  "source": "Kaggle competition API download: playground-series-s6e9",
+  "license": "CC BY 4.0 (per competition rules)",
+  "files": {
+    "train.csv": {
+      "bytes": 44707646,
+      "sha256": "eae9eaa4e6378df405e755f853771d7e26d212bd93258349fc797b771021946a"
+    },
+    "test.csv": {
+      "bytes": 18298347,
+      "sha256": "539263f6caabc40afd5e2f0bc0ab16b10a2d1177c565fc71b866f0181d836b34"
+    },
+    "sample_submission.csv": {
+      "bytes": 7737432,
+      "sha256": "a9747a8b947e4e35505e3da4535a5a494978b012a7adb50973f13e598849dda5"
+    }
+  },
+  "rows": {
+    "train": 668665,
+    "test": 286571,
+    "sample_submission": 286571
+  },
+  "columns": {
+    "train": [
+      "id",
+      "Age",
+      "Annual_Income_USD",
+      "Daily_Commute_km",
+      "Number_of_Cars_Owned",
+      "Charging_Stations_Near_Home",
+      "Charging_Stations_Near_Work",
+      "Environmental_Concern_Level",
+      "Gender",
+      "City_Type",
+      "Current_Car_Type",
+      "Home_Charging_Possible",
+      "Subsidy_Available",
+      "Range_Anxiety_Level",
+      "Will_Buy_EV"
+    ],
+    "test": [
+      "id",
+      "Age",
+      "Annual_Income_USD",
+      "Daily_Commute_km",
+      "Number_of_Cars_Owned",
+      "Charging_Stations_Near_Home",
+      "Charging_Stations_Near_Work",
+      "Environmental_Concern_Level",
+      "Gender",
+      "City_Type",
+      "Current_Car_Type",
+      "Home_Charging_Possible",
+      "Subsidy_Available",
+      "Range_Anxiety_Level"
+    ],
+    "sample_submission": [
+      "id",
+      "Will_Buy_EV"
+    ]
+  },
+  "dtypes": {
+    "id": "int64",
+    "Age": "int64",
+    "Annual_Income_USD": "float64",
+    "Daily_Commute_km": "float64",
+    "Number_of_Cars_Owned": "int64",
+    "Charging_Stations_Near_Home": "int64",
+    "Charging_Stations_Near_Work": "int64",
+    "Environmental_Concern_Level": "float64",
+    "Gender": "str",
+    "City_Type": "str",
+    "Current_Car_Type": "str",
+    "Home_Charging_Possible": "str",
+    "Subsidy_Available": "str",
+    "Range_Anxiety_Level": "str",
+    "Will_Buy_EV": "str"
+  },
+  "missing": {
+    "train": {
+      "id": 0,
+      "Age": 0,
+      "Annual_Income_USD": 0,
+      "Daily_Commute_km": 0,
+      "Number_of_Cars_Owned": 0,
+      "Charging_Stations_Near_Home": 0,
+      "Charging_Stations_Near_Work": 0,
+      "Environmental_Concern_Level": 0,
+      "Gender": 0,
+      "City_Type": 0,
+      "Current_Car_Type": 0,
+      "Home_Charging_Possible": 0,
+      "Subsidy_Available": 0,
+      "Range_Anxiety_Level": 0,
+      "Will_Buy_EV": 0
+    },
+    "test": {
+      "id": 0,
+      "Age": 0,
+      "Annual_Income_USD": 0,
+      "Daily_Commute_km": 0,
+      "Number_of_Cars_Owned": 0,
+      "Charging_Stations_Near_Home": 0,
+      "Charging_Stations_Near_Work": 0,
+      "Environmental_Concern_Level": 0,
+      "Gender": 0,
+      "City_Type": 0,
+      "Current_Car_Type": 0,
+      "Home_Charging_Possible": 0,
+      "Subsidy_Available": 0,
+      "Range_Anxiety_Level": 0
+    }
+  },
+  "unique_values_train": {
+    "id": 668665,
+    "Age": 45,
+    "Annual_Income_USD": 13214,
+    "Daily_Commute_km": 805,
+    "Number_of_Cars_Owned": 4,
+    "Charging_Stations_Near_Home": 15,
+    "Charging_Stations_Near_Work": 20,
+    "Environmental_Concern_Level": 5,
+    "Gender": 3,
+    "City_Type": 3,
+    "Current_Car_Type": 4,
+    "Home_Charging_Possible": 2,
+    "Subsidy_Available": 2,
+    "Range_Anxiety_Level": 3,
+    "Will_Buy_EV": 2
+  },
+  "target": {
+    "counts": {
+      "No": 551886,
+      "Yes": 116779
+    },
+    "rates": {
+      "No": 0.8253549983923191,
+      "Yes": 0.17464500160768098
+    }
+  },
+  "id_ranges": {
+    "train": [
+      0,
+      668664
+    ],
+    "test": [
+      668665,
+      955235
+    ]
+  },
+  "duplicate_feature_audit": {
+    "train_rows_in_duplicate_groups": 0,
+    "train_duplicate_groups": 0,
+    "train_duplicate_groups_with_conflicting_targets": 0,
+    "unique_feature_vectors_shared_between_train_and_test": 0
+  },
+  "categorical_levels": {
+    "Gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "City_Type": [
+      "Rural",
+      "Suburban",
+      "Urban"
+    ],
+    "Current_Car_Type": [
+      "Hatchback",
+      "SUV",
+      "Sedan",
+      "Truck"
+    ],
+    "Home_Charging_Possible": [
+      "No",
+      "Yes"
+    ],
+    "Subsidy_Available": [
+      "No",
+      "Yes"
+    ],
+    "Range_Anxiety_Level": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "checks": {
+    "train_schema_matches_test_plus_target": true,
+    "sample_schema_exact": true,
+    "sample_row_count_matches_test": true,
+    "sample_ids_match_test_in_order": true,
+    "train_ids_unique": true,
+    "test_ids_unique": true,
+    "train_test_ids_disjoint": true,
+    "target_binary": true,
+    "target_absent_from_test": true,
+    "sample_predictions_finite": true,
+    "sample_predictions_in_unit_interval": true
+  },
+  "all_checks_pass": true
+}
