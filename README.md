@@ -52,7 +52,7 @@ Please cite the repository snapshot and the immutable commit or tag you used.
 
 ```bibtex
 @software{openkaggle_playground_series_s6e9_2026,
-  author = {OpenKaggle contributors},
+  author = {Jah-yee},
   title = {Playground Series S6E9 research archive},
   year = {2026},
   url = {https://github.com/OpenKaggle/playground-series-s6e9-research},
