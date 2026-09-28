@@ -45,3 +45,17 @@ Submission `56107927` completed with Public LB `0.94636`. It is the arithmetic m
 ## Campaign status
 
 Archived on 2026-09-17. Submission `56107927` remains frozen as the final campaign entry; no further training or submission is authorized. See [`reports/campaign_closeout_2026-09-17.md`](reports/campaign_closeout_2026-09-17.md).
+
+## Cite this repository
+
+Please cite the repository snapshot and the immutable commit or tag you used.
+
+```bibtex
+@software{openkaggle_playground_series_s6e9_2026,
+  author = {OpenKaggle contributors},
+  title = {Playground Series S6E9 research archive},
+  year = {2026},
+  url = {https://github.com/OpenKaggle/playground-series-s6e9-research},
+  version = {snapshot-2026-09}
+}
+```

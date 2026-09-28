@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: >-
+  If this archive supports your work, cite the repository and review
+  DATA_SOURCES.md and RELEASE_MANIFEST.md before reusing any artifact.
+title: Playground Series S6E9 research archive
+type: software
+authors:
+  - name: OpenKaggle contributors
+repository-code: https://github.com/OpenKaggle/playground-series-s6e9-research
+abstract: >-
+  Source-and-provenance archive for the Playground Series S6E9 campaign,
+  excluding competition files, external data, and model artifacts.
+version: 2026.09.28
+date-released: 2026-09-28
